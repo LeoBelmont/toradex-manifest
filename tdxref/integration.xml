@@ -5,7 +5,7 @@
   <include name="bsp/pinned-ti.xml"/>
   <include name="bsp/integration-tdx.xml"/>
 
-  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="283a773f24cedacb45def943a455bc3607f8a7a1" upstream="master"/>
+  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="784ca4b6584101e971b2d5d76ec7b716ad1301b5" upstream="master"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="master"/>
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="master">
     <copyfile dest="export" src="buildconf/export"/>
