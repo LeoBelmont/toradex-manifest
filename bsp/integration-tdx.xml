@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote alias="repo" fetch="https://git.toradex.com" name="tdx"/>
-
-  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="master"/>
-  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="master"/>
-  <project name="meta-toradex-ti.git" path="layers/meta-toradex-ti" remote="tdx" revision="master"/>
+  <project name="meta-toradex-bsp.git" path="layers/meta-toradex-bsp" remote="tdx" revision="main"/>
 </manifest>
